@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH -J alpha_or_run
 #SBATCH --mail-type=ALL
