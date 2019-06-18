@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -J advogato_or_run
+#SBATCH --mail-type=ALL
+#SBATCH -e /home/nl26togu/test.err.%j
+#SBATCH -o /home/nl26togu/test.out.%j
+#SBATCH --mem-per-cpu=10000
+#SBATCH -t 24:00:00
+#SBATCH -n 20
+ls
+cd flagser
+ls
+ml gcc
+ml cmake
+./test/run
+echo success
