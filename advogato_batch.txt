@@ -15,4 +15,4 @@ cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
 ./test/run
 git clone https://github.com/natilondono/graphs.git
-./flagser --out advo_test graphs/flag/advogato_dim0.txt
+./flagser --min-dim 7 --max-dim 8 --out advo_test graphs/flag/advogato_dim0.txt
