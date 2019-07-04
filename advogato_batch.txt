@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J advogato_or_run
+#SBATCH -J advogatocomplete
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
@@ -7,9 +7,5 @@
 #SBATCH -t 48:00:00
 #SBATCH -n 20
 
-module load gcc
-ml cmake
 cd flagser
-(mkdir -p build && cd build && cmake .. && make -j)
-./test/run
-./flagser --min-dim 7 --out advo_test2 ../graphs/flag/advogato_dim0.txt
+./flagser --out advo_testing ../graphs/flag/advogato_dim0.txt
