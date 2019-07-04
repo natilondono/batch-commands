@@ -12,4 +12,4 @@ ml cmake
 cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
 ./test/run
-./flagser-count --out advogato_justcount ../graphs/flag/advogato_dim0.txt
+./flagser --max-dim 3 --out advogato_maxdim ../graphs/flag/advogato_dim0.txt
