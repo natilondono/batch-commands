@@ -14,4 +14,4 @@ ls
 cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
 ./test/run
-./flagser --out fb_test1 graphs/flag/facebook_mess_dim0.txt
+./flagser --out fb_test1 ../graphs/flag/facebook_mess_dim0.txt
