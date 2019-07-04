@@ -9,10 +9,7 @@
 
 module load gcc
 ml cmake
-ml git
-git clone git@gitlab.com:luetge/flagser.git
 cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
 ./test/run
-git clone https://github.com/natilondono/graphs.git
-./flagser --out wiki_test graphs/flag/wiki_elections_dim0.txt
+./flagser --out wiki_test ../graphs/flag/wiki_elections_dim0.txt
