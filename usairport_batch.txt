@@ -12,4 +12,4 @@ ml cmake
 cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
 ./test/run
-./flagser --out usairport_test ../graphs/flag/usairport_opesahl_dim0.txt
+./flagser --out usairport_test ../graphs/flag/usairport_opsahl_dim0.txt
