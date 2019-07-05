@@ -11,4 +11,4 @@ module load gcc
 ml cmake
 cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
-./flagser --out usairport_test3 ../graphs/flag/usairport_opsahl_dim0.txt
+./flagser --max-dim 4 --out usairport_test3 ../graphs/flag/usairport_opsahl_dim0.txt
