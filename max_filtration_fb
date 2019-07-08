@@ -8,4 +8,4 @@
 #SBATCH -n 20
 
 cd flagser
-./flagser --filtration zero --out fb_test_dimension_filtration ../graphs/flag/facebook_mess_dim0.txt
+./flagser --filtration max --out fb_test_max_filtration ../graphs/flag/facebook_mess_dim0.txt
