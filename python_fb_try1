@@ -17,6 +17,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from ripser import ripser
 from persim import plot_diagrams
-data = pd.read_csv("graphs/normalized/facebook_mess_norm.txt", sep=" ")
+data = pd.read_csv("graphs/facebook_mess_norm.txt", sep=" ")
 dgms = ripser(data)['dgms']
 plot_diagrams(dgms, show=True)
