@@ -10,8 +10,8 @@
 module purge
 module load gcc
 ml python/3.7.3
-pip install cython
-pip install ripser
+pip install --user cython
+pip install --user ripser
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
