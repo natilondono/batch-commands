@@ -12,4 +12,4 @@ ml gcc
 ml python/3.6.8
 pip install --user cython
 pip install --user ripser
-python tryfile.py
+python /batch-commands/python/tryfile.py
