@@ -8,8 +8,8 @@
 #SBATCH -n 20
 
 module purge
-module load gcc
-ml python/3.7.3
+ml gcc
+ml python/2.7.15
 pip install --user cython
 pip install --user ripser
 import numpy as np
