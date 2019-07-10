@@ -1,4 +1,3 @@
-    
 #!/bin/bash
 #SBATCH -J advogato_min6_max7
 #SBATCH --mail-type=ALL
