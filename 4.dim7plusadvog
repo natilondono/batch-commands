@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-memory --min-dim 7 --max-dim 9 --out advo_dim_7 ../graphs/flag/advogato_dim0.txt
+./flagser-memory --min-dim 7 --out advo_dim_7 ../graphs/flag/advogato_dim0.txt
