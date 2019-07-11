@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH -J wikidim4plus
 #SBATCH --mail-type=ALL
