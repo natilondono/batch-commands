@@ -7,9 +7,8 @@
 #SBATCH -t 72:00:00
 #SBATCH -n 20
 
-module load gcc
+module purge
+ml gcc
 ml cmake
 cd flagser
-(mkdir -p build && cd build && cmake .. && make -j)
-./test/run
-./flagser --out wiki_test ../graphs/flag/wiki_elections_dim0.txt
+./flagser-count --out wiki_test ../graphs/flag/wiki_elections_dim0.txt
