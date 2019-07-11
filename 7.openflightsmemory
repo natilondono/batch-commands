@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH -J openflightsmorememory
 #SBATCH --mail-type=ALL
