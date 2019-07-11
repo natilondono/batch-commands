@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH -J usairportcomplete
 #SBATCH --mail-type=ALL
