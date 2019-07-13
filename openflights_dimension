@@ -10,7 +10,7 @@ REM The objective is to find Betti Numbers higher than 6
 module purge
 ml gcc
 ml cmake
-cd ../flagser
+cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
 ./test/run
 ./flagser --min-dim 6 --max-dim 8 --out openflights_test ../graphs/flag/openflights_dim0.txt
