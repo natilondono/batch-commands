@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J openflight_min6_max7
+#SBATCH -J openflight_approx_100000
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
