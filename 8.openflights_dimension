@@ -13,4 +13,4 @@ ml cmake
 cd flagser
 (mkdir -p build && cd build && cmake .. && make -j)
 ./test/run
-./flagser --min-dim 6 --max-dim 8 --out openflights_test ../graphs/flag/openflights_dim0.txt
+./flagser-memory --approximate 100000 --out openflights_approx ../graphs/flag/openflights_dim0.txt
