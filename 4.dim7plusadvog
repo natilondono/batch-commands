@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J openflightsjustcount
+#SBATCH -J advogatomin7
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
