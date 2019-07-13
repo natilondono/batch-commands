@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J wikivotejuscount
+#SBATCH -J usairportmax2
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-count ../graphs/flag/wiki_elections_dim0.txt
+./flagser-memory --max-dim 2 --out usairport_max2 ../graphs/flag/usairport_opsahl_dim0.txt
