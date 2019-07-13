@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-count ../graphs/flag/usairport_opsahl_dim0.txt
+./flagser-count --out usairport_try_just_count ../graphs/flag/usairport_opsahl_dim0.txt
