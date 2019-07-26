@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-count ../graphs/flag/wiki_elections_dim0.txt
+./flagser --filtration dimension wikifiltrdim ../graphs/flag/wiki_elections_dim0.txt
