@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J wikifiltrationdim
+#SBATCH -J openflightjustcount
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
