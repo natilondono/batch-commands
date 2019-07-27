@@ -85,17 +85,12 @@ if all_at_once:
     signature_fig.savefig('signaturetry')
 
     #part 2
-    current_bigger_keys = ["H9","H10"]
-    colors=["dark orange","navy"]
-    signature_2fig = plt.figure(figsize=figsizea)
-    i = 1
-    for k in current_bigger_keys:
-            a = plt.subplot(3,3,i)
-            signature[k].plot(border, colors[i-1],linewidth)
-            i=i+1
-            a.set_title(k)
-    signature_fig.savefig('signaturetry2')
-
+    figsizea2 = (4,4)
+    signature_fig2 = plt.figure(figsize=figsizea2)
+    signature["H9"].plot(border, "crimson",linewidth)
+    plt.title("H9 signature")
+    plt.show
+    signature_fig2.savefig('signature_H9')
 
 else:
     # just one signature
