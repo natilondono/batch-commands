@@ -76,9 +76,9 @@ signature_fig = plt.figure(figsize=figsizea)
 
 if all_at_once:
     i=1
-    color=["red","orange","blue","black","green","pink","mediumorchid","grey","crimson"]
+    color=["red","orange","blue","black","green","pink","mediumorchid","grey","crimson","dark green"]
     for k in signature.keys():
-        a = plt.subplot(3,3,i)
+        a = plt.subplot(3,3)
         signature[k].plot(border, color[i-1],linewidth)
         i=i+1
         a.set_title(k)
