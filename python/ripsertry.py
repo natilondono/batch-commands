@@ -48,9 +48,11 @@ if(all):
 
     #plot the birth-death diagram
     plot_diagrams(data_2, show= False)
+    plt.savefig('birthdeathalpha')
 
     #plot the life time diagram
     plot_diagrams(data_2, lifetime=True, show=False)
+    plt.savefig('lifetimealpha')
 
     # plot the barcodes 
     the_barcod_fig = plt.figure(figsize=(20, 20))
