@@ -35,7 +35,7 @@ data_try = list([np.array([[0.06126404652860065, 20],
 all = True
 
 #turn the data into a list
-data_2 = lm.listmaker('dimension_alpha')
+data_2 = lm.listmaker('alpha_ripser')
 
 #build the bc instance
 final_output = barcode(data_2)
