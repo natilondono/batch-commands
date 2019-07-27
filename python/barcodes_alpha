@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J fb_barcodes_python
+#SBATCH -J alpha_barcodes_python
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
@@ -10,8 +10,6 @@
 module purge
 ml gcc
 ml python/3.6.8
-pip install --user cython
-pip install --user ripser
 #!/bin/python
 import numpy as np
 import pandas as pd
