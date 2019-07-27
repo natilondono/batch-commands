@@ -32,7 +32,7 @@ data_try = list([np.array([[0.06126404652860065, 20],
 [0.03623152116739087, inf]]),np.array([[0.016173805713055378, inf],
 [0.08884911332084169, 20]])])
 
-all = True
+all = False
 
 #turn the data into a list
 data_2 = lm.listmaker('alpha_ripser')
@@ -44,8 +44,6 @@ final_output = barcode(data_2)
 mpl.style.use('seaborn')
 
 if(all):
-    
-
     #plot the birth-death diagram
     plot_diagrams(data_2, show= False)
     plt.savefig('birthdeathalpha')
