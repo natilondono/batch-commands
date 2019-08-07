@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --filtration dimension --out advofildim graphs/flag/advogato_dim0.txt
+./flagser --filtration dimension --out advofildim ../graphs/flag/advogato_dim0.txt
