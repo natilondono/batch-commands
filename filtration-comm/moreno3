@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -J moreno3filtrationdim
+#SBATCH --mail-type=ALL
+#SBATCH -e /home/nl26togu/errorfile.err.%j
+#SBATCH -o /home/nl26togu/noerror.out.%j
+#SBATCH --mem-per-cpu=10000
+#SBATCH -t 24:00:00
+#SBATCH -n 20
+
+module purge
+ml gcc
+ml cmake
+cd flagser
+./flagser --filtration dimension --out more3fildim ../graphs/after_run/moreno3.txt
