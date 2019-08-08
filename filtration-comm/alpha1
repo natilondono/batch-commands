@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-memory --filtration dimension --out alpha1fildim ../after_run/bitcoin1
+./flagser-memory --filtration dimension --out alpha1_clean_fildim ../after_run/bitcoin1
