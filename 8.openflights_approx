@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-memory --approximate 100000 --out openflights_approx ../graphs/flag/openflights_dim0.txt
+./flagser-memory --approximate 10000 --out openflights_approx ../graphs/flag/openflights_dim0.txt
