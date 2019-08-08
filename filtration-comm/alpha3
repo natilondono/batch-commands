@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J alpha3filtrationdim
+#SBATCH -J alpha3_cleanfiltrationdim
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-memory --filtration dimension --out alpha3fildim ../after_run/bitcoin3
+./flagser-memory --filtration dimension --out alpha3_clean_fildim ../after_run/bitcoin50
