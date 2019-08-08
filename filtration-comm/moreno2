@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J moreno2filtrationdim
+#SBATCH -J moreno125_clean_fildim
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
@@ -11,4 +11,4 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --filtration dimension --out more2fildim ../graphs/after_run/moreno2.txt
+./flagser --filtration dimension --out more125fildim ../graphs/after_run/moreno_125.txt
