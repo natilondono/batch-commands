@@ -7,8 +7,7 @@
 #SBATCH -t 4:00:00
 #SBATCH -n 20
 
-cat > out_degree_moreno1.txt
 for i in {1 ..2539}
 do
-grep -c '$i ' graphs/after_run/moreno_1.txt >> out_degree_moreno1.txt
+grep -c '$i ' graphs/after_run/moreno_1.txt
 done
