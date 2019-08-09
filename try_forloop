@@ -8,6 +8,6 @@
 #SBATCH -n 20
 
 for i in {1 ..2539}
-do
-grep -c '^i ' graphs/after_run/moreno_1.txt
-done
+  do
+  grep -c '^i ' graphs/after_run/moreno_1.txt
+  done
