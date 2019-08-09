@@ -9,5 +9,5 @@
 
 for i in {1 ..2539}
 do
-grep -c '$i ' graphs/after_run/moreno_1.txt
+grep -c '^i ' graphs/after_run/moreno_1.txt
 done
