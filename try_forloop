@@ -1,4 +1,3 @@
-    
 #!/bin/bash
 #SBATCH -J openflightjustcount
 #SBATCH --mail-type=ALL
