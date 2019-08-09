@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J for loop
+#SBATCH -J for_loop_moreno1
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
