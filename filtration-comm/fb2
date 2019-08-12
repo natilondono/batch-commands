@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -J fb2filtrationdim
+#SBATCH --mail-type=ALL
+#SBATCH -e /home/nl26togu/errorfile.err.%j
+#SBATCH -o /home/nl26togu/noerror.out.%j
+#SBATCH --mem-per-cpu=10000
+#SBATCH -t 4:00:00
+#SBATCH -n 20
+
+module purge
+ml gcc
+ml cmake
+cd flagser
+./flagser-memory --filtration dimension --out fb2_fildim ../fb_run/fb_2.txt
