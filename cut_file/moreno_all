@@ -11,6 +11,8 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --out moreno_1 ../moreno/1
+./flagser --out moreno_4 ../moreno/4
 ./flagser --out moreno_3 ../moreno/3
 ./flagser --out moreno_2 ../moreno/2
+./flagser --out moreno_6 ../moreno/6
+./flagser --out moreno_7 ../moreno/7
