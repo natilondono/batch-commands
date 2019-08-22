@@ -11,8 +11,5 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --out advo_1 1_noloops
-./flagser --out advo_5 5_noloops
-./flagser --out advo_8 8_noloops
-./flagser --out advo_12 12_noloops
-./flagser --out advo_18 18_noloops
+./flagser --out advo_1 ../advo/1
+./flagser --out advo_5 ../advo/5
