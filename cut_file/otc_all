@@ -13,6 +13,3 @@ ml cmake
 cd flagser
 ./flagser --out otc_1 ../otc/1
 ./flagser --out otc_3 ../otc/3
-./flagser --out otc_5 ../otc/5
-./flagser --out otc_7 ../otc/7
-./flagser --out otc_9 ../otc/9
