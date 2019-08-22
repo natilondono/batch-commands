@@ -12,5 +12,4 @@ ml gcc
 ml cmake
 cd flagser
 ./flagser --out opsahl_1 ../opsahl/1
-./flagser --out opsahl_3 ../opsahl/3
 ./flagser --out opsahl_2 ../opsahl/2
