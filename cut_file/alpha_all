@@ -13,6 +13,3 @@ ml cmake
 cd flagser
 ./flagser --out alpha_1 ../alpha/1
 ./flagser --out alpha_3 ../alpha/3
-./flagser --out alpha_5 ../alpha/5
-./flagser --out alpha_7 ../alpha/7
-./flagser --out alpha_8 ../alpha/8
