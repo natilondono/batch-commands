@@ -11,5 +11,5 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --out advo_1 ../advo/1
-./flagser --out advo_5 ../advo/5
+./flagser-memory --out advo_1 ../advo/1
+./flagser-memory --out advo_5 ../advo/5
