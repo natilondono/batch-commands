@@ -11,5 +11,5 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --out opsahl_1 ../opsahl/1
-./flagser --out opsahl_2 ../opsahl/2
+./flagser --approximate 10000 --out opsahl_1 ../opsahl/1
+./flagser --approximate 10000 --out opsahl_2 ../opsahl/2
