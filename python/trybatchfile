@@ -9,5 +9,5 @@
 
 module purge
 ml gcc
-ml python/3.6.8
+ml python/3.6
 python python/ripsertry.py
