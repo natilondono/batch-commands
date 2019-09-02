@@ -11,5 +11,5 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --approximate 1000 --out alpha_1 ../alpha/1
-./flagser --approximate 1000 --out alpha_3 ../alpha/3
+./flagser-count --out alpha_1 ../alpha/1
+./flagser-count --out alpha_3 ../alpha/3
