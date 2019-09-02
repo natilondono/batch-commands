@@ -11,5 +11,5 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser --approximate 10000 --out otc_1 ../otc/1
-./flagser --approximate 10000 --out otc_3 ../otc/3
+./flagser-count --out otc_1 ../otc/1
+./flagser-count --out otc_3 ../otc/3
