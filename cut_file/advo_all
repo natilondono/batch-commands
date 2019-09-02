@@ -11,5 +11,5 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-memory --approximate 10000 --out advo_1 ../advo/1
-./flagser-memory --approximate 10000 --out advo_5 ../advo/5
+./flagser-count --out advo_1 ../advo/1
+./flagser-count --out advo_5 ../advo/5
