@@ -11,5 +11,5 @@ module purge
 ml gcc
 ml cmake
 cd flagser
-./flagser-count --out wiki_1 ../wiki/1
-./flagser-count --out wiki_3 ../wiki/3
+./flagser-count ../wiki/5
+./flagser-count ../wiki/7
