@@ -10,5 +10,4 @@
 ml gcc 
 ml cmake
 cd flagser
-./flagser-count ../17_advo.txt
-./flagser-count ../28_advo.txt
+./flagser --filtration max --out 17_max ../17_advo.txt
