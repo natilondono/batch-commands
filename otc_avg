@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J all_advo_at_once
+#SBATCH -J all_otc_avg
 #SBATCH --mail-type=ALL
 #SBATCH -e /home/nl26togu/errorfile.err.%j
 #SBATCH -o /home/nl26togu/noerror.out.%j
