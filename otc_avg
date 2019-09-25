@@ -12,4 +12,4 @@ ml gcc
 ml cmake
 cd flagser
 
-for i in {1..30}; do ./flagser --filtration max --out ../../../work/scratch/nl26togu/results/$i ../../../work/scratch/nl26togu/graphs_avgs/$i;done
+./flagser --filtration max --out ../../../work/scratch/nl26togu/results/1 ../../../work/scratch/nl26togu/graphs_avgs/1
